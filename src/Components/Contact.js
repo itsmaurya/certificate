@@ -23,7 +23,7 @@ const Contact = () => {
                 rows="2"
                 placeholder="Type Your Message"
               ></textarea>
-              <a href="#" className="btn btn-primary">Submit</a>
+              <a href="https://github.com/itsmaurya" className="btn btn-primary">Submit</a>
             </div>
           </div>
         </section>
