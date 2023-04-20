@@ -74,11 +74,11 @@ const App = () => {
 
             <div id="downloadWrapper" ref={certificateWrapper}>
                 <div id="certificateWrapper" >
-                 {imageSrc && <img className="logo" src={imageSrc} alt="Uploaded Image" />}
+                 {imageSrc && <img className="logo" src={imageSrc} />}
                     <h2>{Title}</h2>
                     <p>{Name}</p>
                     <p className="description">{info}</p>
-                    <img src={Certificate} alt="Certificate" />
+                    <img src={Certificate}  />
                 </div>
             </div>
         </div>
