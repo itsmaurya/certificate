@@ -116,3 +116,93 @@
     background: #fdc800;
     transition: background 0.3s ease-in-out;
   }
+
+  @media (max-width: 748px){
+
+    #contact {
+      padding: 6rem 1rem;
+      background: rgb(226, 226, 226);
+      height: 100%;
+      
+    }
+
+    .contact-container {
+      padding: 15px;
+      display: flex;
+      flex-direction: column;
+      background: #fff;
+      border-radius: 10px;
+    }
+    
+    .contact-container h2 {
+      padding: 5px;
+      display: flex;
+      background: #fff;
+      border-radius: 10px;
+      font-family: "Hachi Maru Pop", cursive;
+      font-weight: bolder;
+      font-size: 30px;
+  
+    }
+
+    .contact-img {
+      width: 100%;
+    }
+    
+    
+    .form-container {
+      padding: 2rem;
+      width: 100%;
+      margin: auto;
+      background-color: cadetblue;
+      border-radius: 10px;
+    }
+
+    .form-container input {
+      display: inline;
+      
+      border :2px solid #01103f;
+      border-radius: 10px;
+      
+      padding: 1rem 1rem;
+      box-shadow: none;
+      outline: none;
+      margin: .31rem;
+      color: #000;
+      font-weight: bold;
+      font-size: 15px;
+      font-family: "Hachi Maru Pop", cursive;
+    }
+    
+    .form-container textarea {
+      display: block;
+      width: 100%;
+      border-radius: 10px;
+      border: 2px solid #01103f;
+      color: #000;
+      font-weight: bold;
+      font-size: 15px;
+      font-family: "Hachi Maru Pop", cursive;
+      outline: none;
+      padding: 1rem 1rem;
+      resize: none;
+      margin: .31rem;
+    }
+    
+    .form-container h2 {
+      font-size: 1.7rem;
+      font-weight: 500;
+      color: #fff;
+      margin-bottom: 1rem;
+      margin-top: -1.2rem;
+      background-color: cadetblue;
+      justify-content: center;
+      font-family: "Hachi Maru Pop", cursive;
+      font-weight:bold;
+    }
+    
+    .form-container a {
+      font-size: 1.3rem;
+    }
+    
+  }
