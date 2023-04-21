@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 .App {
-  font-family: "Hachi Maru Pop";
+  font-family: "Hachi Maru Pop", cursive;
   display: flex;
   
 }
@@ -74,7 +74,7 @@
   font-size: 32pt;
 }
 .App #certificateWrapper p {
-  font-family: "Staatliches";
+  font-family: "Staatliches", cursive;
   margin: 0;
   position: absolute;
   left: 250px;
@@ -104,7 +104,7 @@
 @media (max-width: 748px) {
 
   .App {
-    font-family: "Hachi Maru Pop";
+    font-family: "Hachi Maru Pop", cursive;
     display: flex;
     flex-direction: column;
     
@@ -161,6 +161,42 @@
     height: 230px;
     width: 330px;
 
+  }
+  .App #certificateWrapper h2 {
+    font-family: "Lexend Deca";
+    margin: 0;
+    position: absolute;
+    left: 70px;
+    top: 44px;
+    font-size: 13pt;
+  }
+  .App #certificateWrapper p {
+    font-family: "Staatliches", cursive;
+    margin: 0;
+    position: absolute;
+    left: 95px;
+    top: 85px;
+    font-size: 15pt;
+  }
+  .App #certificateWrapper .description {
+    max-width: 190px;
+    font-family: "Lexend Deca";
+    position: absolute;
+    left: 70px;
+    top: 120px;
+    font-size: 5pt;
+    
+  }
+  .App #certificateWrapper .logo {
+    width: 26px;
+    height: 26px;
+    font-family: "Lexend Deca";
+    position: absolute;
+    left: 60px;
+    top: 1px;
+    font-size: 13pt;
+    border-radius: 50px;
+    
   }
 
 }
