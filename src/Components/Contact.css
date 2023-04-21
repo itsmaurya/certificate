@@ -1,166 +1,208 @@
-* {
-  box-sizing: border-box;
-}
-.App {
-  font-family: "Hachi Maru Pop", cursive;
-  display: flex;
+#contact {
+    padding: 6rem 1rem;
+    background: rgb(226, 226, 226);
+    height: 100%;
+  }
   
-}
-.App .Meta {
-  flex-grow: 1;
-  padding-top: 30px;
-  padding-left:20px;
-  margin-top: 90px;
-  margin-left: 20px;
-  margin-bottom: 20px;
-  background-color: #000b2c;
-  color: #fff;
-  border-radius: 10px;
-}
-.App .Meta input {
-  font-family: inherit;
-  padding: 10px;
-  width: 95%;
-  box-shadow: 0 0 2px rgba(0, 0, 0, 0.25);
-  border: 2px solid rgba(0, 0, 0, 0.25);
-  border-radius: 5px;
-}
-.App .Meta textarea {
-  font-family: inherit;
-  padding: 10px;
-  width: 95%;
-  box-shadow: 0 0 2px rgba(0, 0, 0, 0.25);
-  border: 2px solid rgba(0, 0, 0, 0.25);
-  border-radius: 5px;
-}
-.App .Meta button {
-  padding: 10px 15px;
-  width: 95%;
-  color: #000b2c;
-  background-color:  #fde383;
-  font-family: inherit;
-  font-size: medium;
-  margin: 20px 0;
-  border-radius: 10px;
-  cursor: pointer;
-}
-.App .Meta button:hover {
-  
-  color: #000b2c;
-  background-color: #fdc800 ;
-  
-}
-.App #downloadWrapper {
-  margin-top: 70px;
-  padding: 20px;
-}
-.App #certificateWrapper {
-  box-shadow: 0 0 5px #000;
-  border-radius: 10px;
-  overflow: hidden;
-  position: relative;
-}
-.App #certificateWrapper img {
-  display: block;
-  height: 630px;
-  width: 930px;
-}
-.App #certificateWrapper h2 {
-  font-family: "Lexend Deca";
-  margin: 0;
-  position: absolute;
-  left: 150px;
-  top: 90px;
-  font-size: 32pt;
-}
-.App #certificateWrapper p {
-  font-family: "Staatliches", cursive;
-  margin: 0;
-  position: absolute;
-  left: 250px;
-  top: 230px;
-  font-size: 35pt;
-}
-.App #certificateWrapper .description {
-  max-width: 690px;
-  font-family: "Lexend Deca";
-  position: absolute;
-  left: 170px;
-  top: 320px;
-  font-size: 13pt;
-  
-}
-.App #certificateWrapper .logo {
-  width: 100px;
-  height: 100px;
-  font-family: "Lexend Deca";
-  position: absolute;
-  left: 430px;
-  top: 60px;
-  font-size: 13pt;
-  border-radius: 50px;
-  
-}
-@media (max-width: 748px) {
-
-  .App {
-    font-family: "Hachi Maru Pop", cursive;
+  .contact-container {
+    padding: 15px;
     display: flex;
-    flex-direction: column;
-    
-  }
-
-  .App .Meta {
-    
-    padding-top: 70px;
-    margin: 100px 10px;
-    
-    width: 330px;
-    display: flex;
-    flex-direction: column;
-  }
-
-  .App .Meta input {
-    
-    padding: 5px;
-    width: 85%;
-    box-shadow: 0 0 2px rgba(0, 0, 0, 0.25);
-    border: 1px solid rgba(0, 0, 0, 0.25);
-    border-radius: 2px;
-  }
-  .App .Meta button {
-
-    padding: 10px 15px;
-    color: aliceblue;
-    background-color: #232424;
-    font-family: inherit;
-    margin: 20px 0;
+    background: #fff;
     border-radius: 10px;
-    cursor: pointer;
-    width: 85%;
-  }
-
-  .App #downloadWrapper {
-    padding: 10px;
-    
   }
   
-  .App #certificateWrapper {
-    box-shadow: 0 0 5px #000;
+  .contact-container h2 {
+    padding: 15px;
+    display: flex;
+    background: #fff;
     border-radius: 10px;
-    overflow: hidden;
-    margin-left: 5px;
-    margin-top: 10px ;
-    height: 200px;
-    width: 330px;
-  }
+    font-family: "Hachi Maru Pop";
+    font-weight: bolder;
+    font-size: 100px;
 
-  .App #certificateWrapper img {
+  }
+  
+  .contact-img {
+    width: 50%;
+  }
+  
+  .contact-img img {
     display: block;
+    height: 400px;
+    width: 100%;
+    object-position: center;
+    object-fit: cover;
+  }
+  
+  .form-container {
+    padding: 2rem;
+    width: 50%;
+    margin: auto;
+    background-color: cadetblue;
+    border-radius: 10px;
+  }
+  
+  .form-container input {
+    display: inline;
     
-    height: 230px;
-    width: 330px;
-
+    border :2px solid #01103f;
+    border-radius: 10px;
+    
+    padding: 1rem 1rem;
+    box-shadow: none;
+    outline: none;
+    margin: .31rem;
+    color: #000;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: "Hachi Maru Pop";
+  }
+  
+  .form-container textarea {
+    display: block;
+    width: 100%;
+    border-radius: 10px;
+    border: 2px solid #01103f;
+    color: #000;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: "Hachi Maru Pop";
+    outline: none;
+    padding: 1rem 1rem;
+    resize: none;
+    margin: .31rem;
+  }
+  
+  .form-container h2 {
+    font-size: 2.7rem;
+    font-weight: 500;
+    color: #fff;
+    margin-bottom: 1rem;
+    margin-top: -1.2rem;
+    background-color: cadetblue;
+    justify-content: center;
+    font-family: "Hachi Maru Pop";
+    font-weight:bold;
+  }
+  
+  .form-container a {
+    font-size: 1.3rem;
+  }
+  
+  .btn {
+    display:flex;
+    margin-inline: 25%;
+    padding: 0.31em 1.5em;
+    text-decoration: none;
+    border-radius: 50px;
+    cursor: pointer;
+    outline: none;
+    margin-top: 1em;
+    text-transform: uppercase;
+    font-weight: small;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  
+  .btn-primary {
+    
+    color: #fff;
+    background: #01103f;
+  }
+  .btn-primary:hover {
+    color: #01103f;
+    background: #fdc800;
+    transition: background 0.3s ease-in-out;
   }
 
-}
+  @media (max-width: 748px){
+
+    #contact {
+      padding: 6rem 1rem;
+      background: rgb(226, 226, 226);
+      height: 100%;
+      
+    }
+
+    .contact-container {
+      padding: 15px;
+      display: flex;
+      flex-direction: column;
+      background: #fff;
+      border-radius: 10px;
+    }
+    
+    .contact-container h2 {
+      padding: 5px;
+      display: flex;
+      background: #fff;
+      border-radius: 10px;
+      font-family: "Hachi Maru Pop";
+      font-weight: bolder;
+      font-size: 30px;
+  
+    }
+
+    .contact-img {
+      width: 100%;
+    }
+    
+    
+    .form-container {
+      padding: 2rem;
+      width: 100%;
+      margin: auto;
+      background-color: cadetblue;
+      border-radius: 10px;
+    }
+
+    .form-container input {
+      display: inline;
+      
+      border :2px solid #01103f;
+      border-radius: 10px;
+      
+      padding: 1rem 1rem;
+      box-shadow: none;
+      outline: none;
+      margin: .31rem;
+      color: #000;
+      font-weight: bold;
+      font-size: 15px;
+      font-family: "Hachi Maru Pop";
+    }
+    
+    .form-container textarea {
+      display: block;
+      width: 100%;
+      border-radius: 10px;
+      border: 2px solid #01103f;
+      color: #000;
+      font-weight: bold;
+      font-size: 15px;
+      font-family: "Hachi Maru Pop";
+      outline: none;
+      padding: 1rem 1rem;
+      resize: none;
+      margin: .31rem;
+    }
+    
+    .form-container h2 {
+      font-size: 1.7rem;
+      font-weight: 500;
+      color: #fff;
+      margin-bottom: 1rem;
+      margin-top: -1.2rem;
+      background-color: cadetblue;
+      justify-content: center;
+      font-family: "Hachi Maru Pop";
+      font-weight:bold;
+    }
+    
+    .form-container a {
+      font-size: 1.3rem;
+    }
+    
+  }
