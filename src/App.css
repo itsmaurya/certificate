@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 .App {
-  font-family: "Hachi Maru Pop", cursive;
+  font-family: "Hachi Maru Pop";
   display: flex;
   
 }
@@ -74,7 +74,7 @@
   font-size: 32pt;
 }
 .App #certificateWrapper p {
-  font-family: "Staatliches", cursive;
+  font-family: "Staatliches";
   margin: 0;
   position: absolute;
   left: 250px;
@@ -104,7 +104,7 @@
 @media (max-width: 748px) {
 
   .App {
-    font-family: "Hachi Maru Pop", cursive;
+    font-family: "Hachi Maru Pop";
     display: flex;
     flex-direction: column;
     
@@ -113,8 +113,9 @@
   .App .Meta {
     
     padding-top: 70px;
-    margin-left: 4px;
-    width: 350px;
+    margin: 100px 10px;
+    
+    width: 330px;
     display: flex;
     flex-direction: column;
   }
